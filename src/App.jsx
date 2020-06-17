@@ -23,6 +23,12 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-title">Countdown to {this.state.deadline}</div>
+        <div className="Clock-prefix">
+          <div className="Clock-title">DD</div>
+          <div className="Clock-title">HH</div>
+          <div className="Clock-title">MM</div>
+          <div className="Clock-title">SE</div>
+        </div>
         <div>
           <Clock
             deadline={this.state.deadline}

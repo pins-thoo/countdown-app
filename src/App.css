@@ -6,6 +6,20 @@
 
 .App-title {
   font-size: 50px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.Clock-title {
+  font-weight: bold;
+}
+
+.Clock-prefix {
+  display: flex;
+  justify-content: space-evenly;
+  width: 58vh;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .Clock-box {
@@ -15,6 +29,7 @@
   justify-content: center;
   border: .5px solid white;
   border-radius: 16px;
+  margin-bottom: 40px;
 }
 
 .Clock-days, .Clock-hours, .Clock-mins, .Clock-seconds {
@@ -26,12 +41,19 @@
 }
 
 .Deadline-input {
-  font-size: 25px;
   margin: 5px;
+  width: 240px;
+  height: 50px;
+  font-size: 20px;
+}
+
+button.btn.btn-primary {
+  height: 50px;
 }
 
 .form-inline {
   justify-content: center;
+  margin-top: 24px;
 }
 
 body {
